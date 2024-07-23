@@ -12,6 +12,8 @@ streamlit = "^1.36.0"
 pandas = "^2.2.2"
 replit = "^4.0.0"
 plotly = "^5.22.0"
+requests = "^2.32.3"
+streamlit-lottie = "^0.0.5"
 
 
 [build-system]
