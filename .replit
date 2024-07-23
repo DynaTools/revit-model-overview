@@ -1,0 +1,9 @@
+run = "streamlit run app.py"
+modules = ["python-3.12"]
+
+[deployment]
+run = ["sh", "-c", "streamlit run app.py"]
+
+[[ports]]
+localPort = 8501
+externalPort = 80

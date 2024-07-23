@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "repl-nix-revit-model-overview"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "repl_nix_revit_model_overview"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+streamlit = "^1.36.0"
+pandas = "^2.2.2"
+replit = "^4.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
